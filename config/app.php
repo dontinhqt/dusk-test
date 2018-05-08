@@ -160,7 +160,12 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        TinhNguyen\BookCRUD\Providers\BookCRUDServiceProvider::class,
+
         Core\Providers\CoreServiceProvider::class,
+        JeroenG\Packager\PackagerServiceProvider::class,
+
+        Laravel\Dusk\DuskServiceProvider::class,
 
     ],
 
